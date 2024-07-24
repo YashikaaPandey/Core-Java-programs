@@ -1,0 +1,24 @@
+interface my
+{
+ void disp();
+}
+class base
+{
+ void show()
+{
+ System.out.println("show in base");
+}
+}
+class child6 implements my extends base
+{
+ void disp()
+{
+ System.out.println("child disp call");
+}
+public static void main(String arg[])
+{
+ child6 c=new child6();
+ c.show();
+c.disp();
+}
+

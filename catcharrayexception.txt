@@ -1,0 +1,13 @@
+class catcharrayexception
+{
+ public static void main(String arg[])
+{
+ try
+{
+ int x[]={1,2,5,7};
+ System.out.println(x[10]);
+}
+catch(ArrayIndexOutOfBoundsException e)
+{
+ System.out.println(e);
+}}}

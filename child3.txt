@@ -1,0 +1,22 @@
+interface my
+{
+ void show();
+ void disp();
+}
+class child3 implements my
+{
+ public void show()
+{
+ System.out.println("child show call");
+ 
+}
+public void disp()
+{
+System.out.println("disp show call");
+}
+public static void main(String arg[])
+{
+child3 c=new child3();
+c.show();
+c.disp();
+}}
