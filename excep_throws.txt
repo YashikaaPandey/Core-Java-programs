@@ -1,0 +1,18 @@
+import java.io.*;
+class excep_throws
+{
+satic void show() throws FileNotFoundException
+{
+FileInputStream f=new FileInputStream("abc.txt");
+}
+public static void main(String arg[])
+{
+try
+{
+show();
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}}
